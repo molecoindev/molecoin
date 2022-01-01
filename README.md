@@ -10,7 +10,7 @@ sudo apt-get update
 sudo apt-get install build-essential cmake libboost-all-dev git
 git clone https://github.com/molecoindev/molecoin.git
 cd molecoin
-make*
+make
 ```
 you can also use ``make -j<number of threads>`` to specify the number of threads
 
