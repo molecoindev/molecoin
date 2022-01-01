@@ -2,23 +2,17 @@
 
 ### On Ubuntu
 
-Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.55.
-Note: building only works on Ubuntu 16 currently
-You may download them from:
-
-* http://gcc.gnu.org/
-* http://www.cmake.org/
-* http://www.boost.org/
-* Alternatively, it may be possible to install them using a package manager.
-
-To build, change to a directory where this file is located, and run `make`. The resulting executables can be found in `build/release/src`.
-
-**Advanced options:**
-
-* Parallel build: run `make -j<number of threads>` instead of `make`.
-* Debug build: run `make build-debug`.
-* Test suite: run `make test-release` to run tests in addition to building. Running `make test-debug` will do the same to the debug version.
-* Building with Clang: it may be possible to use Clang instead of GCC, but this may not work everywhere. To build, run `export CC=clang CXX=clang++` before running `make`.
+Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, Boost 1.58, and Git.
+Note: Building has only been confirmed to work on Ubuntu 16
+To build on Ubuntu 16 run the following commands:
+```
+sudo apt-get update
+sudo apt-get install build-essential cmake libboost-all-dev git
+git clone https://github.com/molecoindev/molecoin.git
+cd molecoin
+make*
+```
+you can also use ``make -j<number of threads>`` to specify the number of threads
 
 ### On Windows
 Dependencies: MSVC 2013 or later, CMake 2.8.6 or later, and Boost 1.55. You may download them from:
