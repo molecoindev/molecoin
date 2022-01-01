@@ -30,7 +30,7 @@ mkdir molecoin\build
 cd molecoin\build
 cmake -G "Visual Studio 12 Win64" ..
 ```
-Once the configuring is done, go to the build files in file explorer (should be something like C:\Users\<your username>\molecoin\build).
+Once the configuring is done, go to the build files in file explorer (should be something like C:\Users\(your username)\molecoin\build).
 <br>
 Find and open the file named cryptonote.sln in Visual Studio 2013.
 <br>
