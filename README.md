@@ -1,9 +1,9 @@
 ## Building molecoin
 
 ### On Ubuntu
-Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, Boost 1.58, and Git.
+Note: Building has only been confirmed to work on Ubuntu 16.
 <br>
-Note: Building has only been confirmed to work on Ubuntu 16
+Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, Boost 1.58, and Git.
 <br>
 To build on Ubuntu 16, open the terminal and run the following commands:
 ```
@@ -16,6 +16,8 @@ make
 you can also use ``make -j<number of threads>`` to specify the number of threads
 
 ### On Windows
+Note: Building has only been tested on Windows 10.
+<br>
 Dependencies: MSVC 2013, CMake 2.8.6 or later, Boost 1.58, Python 3.10.1 or later, and Git. You may download these from:
 * https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2013-update5-vs#download-visual-studio-community-2013
 * https://cmake.org/download/
