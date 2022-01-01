@@ -31,6 +31,9 @@ cd molecoin\build
 cmake -G "Visual Studio 12 Win64" ..
 ```
 Once the configuring is done, go to the build files in file explorer (should be something like C:\Users\<your username>\molecoin\build).
-Open the file named cryptonote.sln in Visual Studio 2013.
+<br>
+Find and open the file named cryptonote.sln in Visual Studio 2013.
+<br>
 Navigate to the build tab inside Visual Studio and click Build Solution from the dropdown menu.
+<br>
 The finished daemons will be located in molecoin\build\src\Debug
