@@ -36,4 +36,4 @@ Find and open the file named cryptonote.sln in Visual Studio 2013.
 <br>
 Navigate to the build tab inside Visual Studio and click Build Solution from the dropdown menu.
 <br>
-The finished daemons will be located in ``molecoin\build\src\Debug``
+The finished daemons will be located in ``molecoin\build\src\Debug``.
