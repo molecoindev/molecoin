@@ -16,7 +16,7 @@ make
 you can also use ``make -j<number of threads>`` to specify the number of threads
 
 ### On Windows
-Note: Building has only been tested on Windows 10.
+Note: Building has only been tested on Windows 10 x64.
 <br>
 Dependencies: MSVC 2013, CMake 2.8.6 or later, Boost 1.58, Python 3.10.1 or later, and Git. You may download these from:
 * https://docs.microsoft.com/en-us/visualstudio/releasenotes/vs2013-update5-vs#download-visual-studio-community-2013
