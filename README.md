@@ -2,7 +2,9 @@
 
 ### On Ubuntu
 Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, Boost 1.58, and Git.
+<br>
 Note: Building has only been confirmed to work on Ubuntu 16
+<br>
 To build on Ubuntu 16, open the terminal and run the following commands:
 ```
 sudo apt-get update
